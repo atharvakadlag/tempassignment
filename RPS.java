@@ -1,7 +1,7 @@
 import java.util.Random;
 
 // rock paper scissors
-public class RPC extends Game {
+public class RPS extends Game {
     // rng is a Random object
     private Random rng;
     // requiredWins is the number of wins required to win the game
@@ -14,7 +14,7 @@ public class RPC extends Game {
     private int numLosses;
 
     // constructor
-    RPC (Random rng, int requiredWins, int maxLosses) {
+    RPS (Random rng, int requiredWins, int maxLosses) {
         this.rng = rng;
         this.requiredWins = requiredWins;
         this.maxLosses = maxLosses;
